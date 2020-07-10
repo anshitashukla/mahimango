@@ -6868,7 +6868,7 @@ body.open-overlay #overlay{
     -ms-transform: scale(0);
     -o-transform: scale(0);
     transform: scale(0);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.3);
     color: rgb(255, 255, 255);
     border-color: rgb(102, 102, 102);
     padding: 20px 50px 40px;
@@ -12281,7 +12281,8 @@ body.open-quickview-block .biolife-quickview-block{
     .slider-opt03__layout01.mode-03 .media,
     .slider-opt03__layout01.mode-02 .media,
     .slider-opt03__layout01 .media{
-        height: 480px;
+        /* height: 480px; */
+        background-size: cover;
     }
     .slider-opt03__layout01 .media .child-elememt{
         top: 0;
