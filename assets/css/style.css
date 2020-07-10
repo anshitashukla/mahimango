@@ -82,7 +82,7 @@ label .required{
     text-decoration: none;
 }
 img{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     outline: none;
 }
@@ -10031,7 +10031,7 @@ li.slick-current .slider-opt04__layout01 .buttons .btn{
 }
 
 .biolife-banner__detail-product .text-content{
-    padding-top: 26.9%;
+    padding-top: 10%;
 }
 .biolife-banner__detail-product .head-info h3{
     display: block;
