@@ -12281,6 +12281,7 @@ body.open-quickview-block .biolife-quickview-block{
     .slider-opt03__layout01.mode-03 .media,
     .slider-opt03__layout01.mode-02 .media,
     .slider-opt03__layout01 .media{
+        background-image: url(/assets/images/home/OR+.png);
         /* height: 480px; */
         background-size: cover;
     }
