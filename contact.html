@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-    <script src="assets/js/email.js"></script>
+
+    
     <link rel="stylesheet" href="assets/css/email.css"/>
 </head>
 
 <body>
     <form id="myform">
-        <label>reply_to</label>
-        <input type="text" name="reply_to" />
-        <label>from_name</label>
+        
+        <label>Name</label>
         <input type="text" name="from_name" />
-        <label>to_name</label>
-        <input type="text" name="to_name" />
+        <label>E-mail</label>
+        <input type="email" name="sender_email">
+        <label>Mobile Number</label>
+        <input type="number" name="sender_mobile" />
         <label>message_html</label>
         <input type="text" name="message_html" />
         <br><br>
@@ -21,7 +23,7 @@
         </button>
       </form>
       
-      <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       
       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
       <script type="text/javascript">
@@ -31,7 +33,7 @@
       
       </script>
       
-      
+      <script src="assets/js/email.js"></script>
     
 </body>
 </html>
