@@ -8,7 +8,7 @@ myform.submit(function(event){
   }, {});
 
   // Change to your service ID, or keep using the default service
-  var service_id = "default_service";
+  var service_id = "gmail";
 
   var template_id = "template_pCfmLKBd";
   myform.find("button").text("Sending...");
