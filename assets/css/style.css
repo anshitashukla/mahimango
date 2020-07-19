@@ -69,10 +69,10 @@ body, html {
   
   .bg { 
     /* The image used */
-    background-image: url("../images/home/qwertyuiop.png");
+    background-image: url("../images/home/E.png");
   
     /* Full height */
-    height: 100%; 
+    height: 140%; 
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -13168,8 +13168,8 @@ body.open-quickview-block .biolife-quickview-block{
     }
 
     .bg{
-        background-image: url(../images/home/Untitled\ design\ \(29\).png);
-        HEIGHT: 50%
+        background-image: url(../images/home/E.png);
+        HEIGHT: 60%;
     }
     .payment-methods.layout-02 .payments{
         display: flex;
